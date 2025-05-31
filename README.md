@@ -1,4 +1,4 @@
-# nix
+# nix-config
 
 This is my [nix](https://nixos.org/) config for my development environment.
 
