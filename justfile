@@ -14,3 +14,6 @@ config:
 unset-config:
   stow -D -t {{home_dir()}}/.config/nix nix
   stow -D -t {{home_dir()}}/.config/nixpkgs nixpkgs
+
+sync-packages:
+  nix-env -if ~/.config/nixpkgs/packages.nix
