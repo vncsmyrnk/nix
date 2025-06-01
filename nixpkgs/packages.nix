@@ -10,6 +10,6 @@ with import <nixpkgs> {}; [
   mkcert
   go
   lua51Packages.luarocks
-  nodejs_20
+  nodejs
   nodePackages.npm
 ]
