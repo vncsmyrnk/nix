@@ -9,6 +9,7 @@ with import <nixpkgs> {}; [
   just
   mkcert
   go
+  fluxcd
   lua51Packages.luarocks
   nodejs
   nodePackages.npm
